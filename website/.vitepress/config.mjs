@@ -45,7 +45,7 @@ export default defineConfig({
       },
       {
             "text": "GitHub",
-            "link": "https://github.com/anurag-tiwari-3108/dsa-handbook"
+            "link": "https://github.com/itsanurag-dev/dsa-handbook"
       }
 ],
     sidebar: [
@@ -866,7 +866,7 @@ export default defineConfig({
       }
 ],
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/anurag-tiwari-3108/dsa-handbook' }
+      { icon: 'github', link: 'https://github.com/itsanurag-dev/dsa-handbook' }
     ],
     search: {
       provider: 'local'

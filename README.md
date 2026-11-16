@@ -1,6 +1,6 @@
 # DSA Handbook
 
-[![Java CI with Maven](https://github.com/anurag-tiwari-3108/dsa-handbook/actions/workflows/ci.yml/badge.svg)](https://github.com/anurag-tiwari-3108/dsa-handbook/actions)
+[![Java CI with Maven](https://github.com/itsanurag-dev/dsa-handbook/actions/workflows/ci.yml/badge.svg)](https://github.com/itsanurag-dev/dsa-handbook/actions)
 ![Java](https://img.shields.io/badge/Java-11%20%7C%2017%20%7C%2021-blue.svg)
 ![Build](https://img.shields.io/badge/Maven-3.9+-green.svg)
 ![Tests](https://img.shields.io/badge/JUnit-5-brightgreen.svg)
@@ -8,7 +8,7 @@
 
 An interview-grade, modular, and fully tested reference repository for **Data Structures and Algorithms** in Java. Designed for technical interview preparation at tier-1 tech firms and quant trading platforms.
 
-🌐 **Interactive Web Portal:** [https://anurag-tiwari-3108.github.io/dsa-handbook/](https://anurag-tiwari-3108.github.io/dsa-handbook/)
+🌐 **Interactive Web Portal:** [https://itsanurag-dev.github.io/dsa-handbook/](https://itsanurag-dev.github.io/dsa-handbook/)
 
 ---
 
