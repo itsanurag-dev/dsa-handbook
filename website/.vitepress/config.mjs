@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: 'DSA Handbook',
   description: 'Interactive Coding Interview & Algorithm Reference',
-  base: '/dsa-handbook/',
+  base: '/',
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },

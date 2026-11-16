@@ -8,7 +8,7 @@
 
 An interview-grade, modular, and fully tested reference repository for **Data Structures and Algorithms** in Java. Designed for technical interview preparation at tier-1 tech firms and quant trading platforms.
 
-🌐 **Interactive Web Portal:** [https://anurag-tiwari-3108.github.io/dsa-handbook/](https://anurag-tiwari-3108.github.io/dsa-handbook/)
+🌐 **Interactive Web Portal:** [https://dsa.devhandbook.com/](https://dsa.devhandbook.com/)
 
 ---
 
