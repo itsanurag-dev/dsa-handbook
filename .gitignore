@@ -1,26 +1,46 @@
-# CakePHP 3
+# Compiled class files
+target/
+*.class
 
-/vendor/*
-/config/app.php
+# Log files
+*.log
+*.log.*
 
-/tmp/cache/models/*
-!/tmp/cache/models/empty
-/tmp/cache/persistent/*
-!/tmp/cache/persistent/empty
-/tmp/cache/views/*
-!/tmp/cache/views/empty
-/tmp/sessions/*
-!/tmp/sessions/empty
-/tmp/tests/*
-!/tmp/tests/empty
+# Package Files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
 
-/logs/*
-!/logs/empty
+# Maven local repository cache / temp
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
 
-# CakePHP 2
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
 
-/app/tmp/*
-/app/Config/core.php
-/app/Config/database.php
-/vendors/*
-/bin/
+# Eclipse
+.apt_settings/
+.classpath
+.project
+.settings/
+bin/
+
+# Visual Studio Code
+.vscode/
+
+# OS specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
