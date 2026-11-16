@@ -20,44 +20,109 @@
   --vp-home-hero-name-background: -webkit-linear-gradient(135deg, #f8fafc 10%, #60a5fa 85%);
 }
 
-/* Subtle, tasteful ambient backdrop */
+/* ==========================================================================
+   Hero Section - Intentional Senior Engineering Aesthetic (Centered & Balanced)
+   ========================================================================== */
 .VPHero {
   position: relative;
   overflow: hidden;
+  text-align: center;
+  padding: calc(var(--vp-nav-height) + 56px) 24px 64px !important;
 }
 
+/* Subtle architectural grid pattern background */
 .VPHero::before {
   content: "";
   position: absolute;
-  top: -120px;
+  top: 0;
   left: 50%;
   transform: translateX(-50%);
-  width: 600px;
-  height: 350px;
-  background: radial-gradient(ellipse at center, rgba(59, 130, 246, 0.12) 0%, transparent 65%);
-  filter: blur(45px);
+  width: 100%;
+  max-width: 1200px;
+  height: 100%;
+  background-image: 
+    radial-gradient(ellipse at 50% 25%, rgba(59, 130, 246, 0.12) 0%, transparent 70%),
+    linear-gradient(to right, var(--vp-c-divider) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--vp-c-divider) 1px, transparent 1px);
+  background-size: 100% 100%, 48px 48px, 48px 48px;
+  background-position: center top, center top, center top;
+  mask-image: radial-gradient(ellipse at center 40%, black 20%, transparent 75%);
+  -webkit-mask-image: radial-gradient(ellipse at center 40%, black 20%, transparent 75%);
   pointer-events: none;
   z-index: 0;
+  opacity: 0.6;
 }
 
-/* Engineering-first typography */
+.VPHero .container {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center !important;
+  max-width: 900px !important;
+  margin: 0 auto !important;
+  position: relative;
+  z-index: 1;
+}
+
+.VPHero .main {
+  width: 100% !important;
+  max-width: 820px !important;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  text-align: center !important;
+}
+
+.VPHero .heading {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  text-align: center !important;
+}
+
 .VPHero .name {
-  font-weight: 800 !important;
-  letter-spacing: -0.035em !important;
+  font-size: clamp(2.5rem, 6vw, 3.75rem) !important;
+  font-weight: 850 !important;
+  letter-spacing: -0.04em !important;
+  line-height: 1.1 !important;
+  margin: 0 auto 8px auto !important;
+  text-align: center !important;
+  max-width: 100% !important;
 }
 
 .VPHero .text {
+  font-size: clamp(1.75rem, 4vw, 2.5rem) !important;
   font-weight: 700 !important;
-  letter-spacing: -0.02em !important;
+  letter-spacing: -0.03em !important;
   line-height: 1.15 !important;
+  color: var(--vp-c-text-1) !important;
+  margin: 0 auto !important;
+  text-align: center !important;
+  max-width: 760px !important;
 }
 
 .VPHero .tagline {
   font-size: 1.15rem !important;
   font-weight: 400 !important;
   color: var(--vp-c-text-2) !important;
-  max-width: 640px;
-  margin: 1rem auto 0 auto !important;
+  max-width: 660px !important;
+  margin: 1.25rem auto 0 auto !important;
+  line-height: 1.6 !important;
+  text-align: center !important;
+}
+
+.VPHero .actions {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 12px !important;
+  margin-top: 1.75rem !important;
+  padding-top: 0 !important;
+}
+
+.VPHero .action {
+  margin: 0 !important;
 }
 
 /* Crisp technical feature cards */
