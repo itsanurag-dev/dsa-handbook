@@ -3,26 +3,26 @@ layout: home
 
 hero:
   name: "DSA Codex"
-  text: "Production-Grade Algorithms & Data Structures"
-  tagline: "178 canonical Java implementations across 15 core computer science modules with strict Big-O bounds and 100% automated test coverage."
+  text: "The Algorithmic Standard Library"
+  tagline: "178 battle-tested Java implementations engineered from first principles. Formally analyzed complexities, zero-dependency architectures, and comprehensive JUnit 5 verification."
   actions:
     - theme: brand
-      text: Browse 178 Implementations
+      text: Browse Library (178)
       link: /arrays/continuoussubarraymaximumsum
     - theme: alt
-      text: Big-O Cheat Sheet
+      text: Complexity Matrix
       link: /complexity
     - theme: alt
-      text: View Source
+      text: GitHub Repository
       link: https://github.com/itsanurag-dev/dsa-handbook
 
 features:
-  - title: Zero-Placeholder Codebase
-    details: Fully functional Java 11/17/21 implementations covering self-balancing trees, network flows, and O(1) caches.
-  - title: Rigorous Complexity Bounds
-    details: Every algorithm is verified against its formal space and time invariants across average and worst cases.
-  - title: Verified by Automated CI
-    details: Backed by 58 JUnit 5 test suites running continuously on GitHub Actions with strict regression gates.
+  - title: First-Principles Implementations
+    details: "From self-balancing AVL trees and Tarjan's SCC to O(1) LFU caches and rolling hashes—engineered with zero external dependencies."
+  - title: Provable Invariants & Big-O
+    details: "Strict mathematical analysis of average, worst-case, and auxiliary space bounds, paired with deep algorithmic trade-off documentation."
+  - title: Regression-Gated Test Suites
+    details: "58 comprehensive JUnit 5 suites stress-testing edge cases: branch degenerations, hash collisions, tree rotations, and empty bounds."
 ---
 
 <CodeShowcase />
