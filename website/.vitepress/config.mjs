@@ -1,16 +1,16 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-  title: 'DSA Reference Portal',
+  title: 'DSA Handbook',
   description: 'Interactive Coding Interview & Algorithm Reference',
-  base: '/Data-Structure-And-Algo/',
+  base: '/dsa-handbook/',
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Complexity Sheet', link: '/complexity' },
       { text: 'Data Structures', link: '/datastructures/avl-tree' },
       { text: 'Algorithms', link: '/algorithms/shortest-paths' },
-      { text: 'GitHub', link: 'https://github.com/anurag-tiwari-3108/Data-Structure-And-Algo' }
+      { text: 'GitHub', link: 'https://github.com/anurag-tiwari-3108/dsa-handbook' }
     ],
     sidebar: [
       {
@@ -54,7 +54,7 @@ export default defineConfig({
       }
     ],
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/anurag-tiwari-3108/Data-Structure-And-Algo' }
+      { icon: 'github', link: 'https://github.com/anurag-tiwari-3108/dsa-handbook' }
     ],
     search: {
       provider: 'local'

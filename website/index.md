@@ -2,7 +2,7 @@
 layout: home
 
 hero:
-  name: "DSA Reference Portal"
+  name: "DSA Handbook"
   text: "Interview-Grade Data Structures & Algorithms"
   tagline: "Explore concepts, Big-O complexities, and full Java source code directly from your browser."
   actions:
@@ -14,7 +14,7 @@ hero:
       link: /complexity
     - theme: alt
       text: View on GitHub
-      link: https://github.com/anurag-tiwari-3108/Data-Structure-And-Algo
+      link: https://github.com/anurag-tiwari-3108/dsa-handbook
 
 features:
   - title: Direct Source Code Inclusion
