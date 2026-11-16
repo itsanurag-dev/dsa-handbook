@@ -2,33 +2,35 @@
 layout: home
 
 hero:
-  name: "DSA Handbook"
-  text: "The Architecture of Algorithms"
-  tagline: "A production-grade, interview-ready reference featuring 178 canonical algorithms and data structures in Java with real-time test execution."
+  name: "DSA Codex"
+  text: "Production-Grade Algorithms & Data Structures"
+  tagline: "178 canonical Java implementations across 15 core computer science modules with strict Big-O bounds and 100% automated test coverage."
   actions:
     - theme: brand
-      text: Explore Catalog (178)
+      text: Browse 178 Implementations
       link: /arrays/continuoussubarraymaximumsum
     - theme: alt
       text: Big-O Cheat Sheet
       link: /complexity
     - theme: alt
       text: View Source
-      link: https://github.com/anurag-tiwari-3108/dsa-handbook
+      link: https://github.com/itsanurag-dev/dsa-handbook
 
 features:
-  - title: 178 Production Implementations
-    details: Complete Java implementations across 15 core computer science modules with zero placeholder code.
-  - title: Direct Source Code Inclusion
-    details: Documentation dynamically links directly to live Java source and unit test files in `src/main/java`.
-  - title: Fully Verified & Tested
-    details: Backed by 58 automated JUnit 5 test suites running continuously in GitHub Actions CI with zero warnings.
+  - title: Zero-Placeholder Codebase
+    details: Fully functional Java 11/17/21 implementations covering self-balancing trees, network flows, and O(1) caches.
+  - title: Rigorous Complexity Bounds
+    details: Every algorithm is verified against its formal space and time invariants across average and worst cases.
+  - title: Verified by Automated CI
+    details: Backed by 58 JUnit 5 test suites running continuously on GitHub Actions with strict regression gates.
 ---
 
-<div style="margin-top: 56px; margin-bottom: 24px;">
+<CodeShowcase />
+
+<div style="margin-top: 64px; margin-bottom: 24px;">
   <div style="display: flex; align-items: baseline; justify-content: space-between; border-bottom: 1px solid var(--vp-c-divider); padding-bottom: 12px;">
-    <h2 style="font-size: 1.5rem; font-weight: 700; letter-spacing: -0.02em; margin: 0;">Modules & Domains</h2>
-    <span style="font-size: 0.88rem; color: var(--vp-c-text-2); font-family: var(--vp-font-family-mono);">15 Packages • 178 Compilations</span>
+    <h2 style="font-size: 1.4rem; font-weight: 700; letter-spacing: -0.02em; margin: 0;">Architectural Modules</h2>
+    <span style="font-size: 0.85rem; color: var(--vp-c-text-2); font-family: var(--vp-font-family-mono);">15 Packages • 178 Implementations</span>
   </div>
 </div>
 
