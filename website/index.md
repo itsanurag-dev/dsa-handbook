@@ -25,8 +25,6 @@ features:
     details: "58 comprehensive JUnit 5 suites stress-testing edge cases: branch degenerations, hash collisions, tree rotations, and empty bounds."
 ---
 
-<CodeShowcase />
-
 <div style="margin-top: 64px; margin-bottom: 24px;">
   <div style="display: flex; align-items: baseline; justify-content: space-between; border-bottom: 1px solid var(--vp-c-divider); padding-bottom: 12px;">
     <h2 style="font-size: 1.4rem; font-weight: 700; letter-spacing: -0.02em; margin: 0;">Architectural Modules</h2>
