@@ -17,92 +17,115 @@ hero:
       link: https://github.com/anurag-tiwari-3108/dsa-handbook
 
 features:
-  - icon: ⚡
-    title: 178 Production Implementations
+  - title: 178 Production Implementations
     details: Complete Java implementations across 15 core computer science modules with zero placeholder code.
-  - icon: 🎯
-    title: Real-Time Code Transclusion
-    details: Documentation is dynamically linked directly to live Java source and unit test files in `src/main/java`.
-  - icon: 🛡️
-    title: Fully Verified & Tested
+  - title: Direct Source Code Inclusion
+    details: Documentation dynamically links directly to live Java source and unit test files in `src/main/java`.
+  - title: Fully Verified & Tested
     details: Backed by 58 automated JUnit 5 test suites running continuously in GitHub Actions CI with zero warnings.
 ---
 
-<div style="margin-top: 48px; text-align: center;">
-  <h2 style="font-size: 1.85rem; font-weight: 800; letter-spacing: -0.02em;">Explore By Domain</h2>
-  <p style="color: var(--vp-c-text-2); font-size: 1.05rem; margin-top: 6px;">Select a module to view interactive source code, algorithmic mechanics, and edge cases.</p>
+<div style="margin-top: 56px; margin-bottom: 24px;">
+  <div style="display: flex; align-items: baseline; justify-content: space-between; border-bottom: 1px solid var(--vp-c-divider); padding-bottom: 12px;">
+    <h2 style="font-size: 1.5rem; font-weight: 700; letter-spacing: -0.02em; margin: 0;">Modules & Domains</h2>
+    <span style="font-size: 0.88rem; color: var(--vp-c-text-2); font-family: var(--vp-font-family-mono);">15 Packages • 178 Compilations</span>
+  </div>
 </div>
 
 <div class="category-grid">
   <a href="./arrays/continuoussubarraymaximumsum.html" class="category-card">
-    <h3>📊 Arrays & Sliding Window</h3>
+    <div class="card-header">
+      <span class="card-title">Arrays & Sliding Window</span>
+      <span class="card-badge">38 files</span>
+    </div>
     <p>Kadane's algorithm, Dutch National Flag, two-pointer bounds, and sliding window optimization.</p>
-    <span class="category-badge">38 Implementations</span>
   </a>
 
   <a href="./trees/avltree.html" class="category-card">
-    <h3>🌳 Trees & Traversals</h3>
+    <div class="card-header">
+      <span class="card-title">Trees & Traversals</span>
+      <span class="card-badge">29 files</span>
+    </div>
     <p>Self-balancing AVL trees with LL/RR/LR/RL rotations, diameter, views, and serialized N-ary trees.</p>
-    <span class="category-badge">29 Implementations</span>
   </a>
 
   <a href="./strings/stringmatchingalgorithms.html" class="category-card">
-    <h3>🔤 String Algorithms</h3>
+    <div class="card-header">
+      <span class="card-title">String Algorithms</span>
+      <span class="card-badge">21 files</span>
+    </div>
     <p>Knuth-Morris-Pratt (KMP), Rabin-Karp polynomial rolling hash, LCS, and Levenshtein edit distance.</p>
-    <span class="category-badge">21 Implementations</span>
   </a>
 
   <a href="./graphs/advancedshortestpaths.html" class="category-card">
-    <h3>🕸️ Graph Algorithms</h3>
+    <div class="card-header">
+      <span class="card-title">Graph Algorithms</span>
+      <span class="card-badge">19 files</span>
+    </div>
     <p>Bellman-Ford, Floyd-Warshall, Kruskal & Prim MST, Tarjan's bridges & SCC, and Kahn's topological sort.</p>
-    <span class="category-badge">19 Implementations</span>
   </a>
 
   <a href="./hashmaps/separatechaininghashtable.html" class="category-card">
-    <h3>⚡ Hash Maps & Caches</h3>
+    <div class="card-header">
+      <span class="card-title">Hash Maps & Caches</span>
+      <span class="card-badge">15 files</span>
+    </div>
     <p>Separate chaining with dynamic load-factor rehashing, O(1) LFU cache, and probabilistic Bloom filter.</p>
-    <span class="category-badge">15 Implementations</span>
   </a>
 
   <a href="./backtracking/nqueen.html" class="category-card">
-    <h3>♟️ Backtracking</h3>
+    <div class="card-header">
+      <span class="card-title">Backtracking</span>
+      <span class="card-badge">11 files</span>
+    </div>
     <p>N-Queens, 9x9 Sudoku solver, Rat in a Maze, Knight's Tour, and Boggle word search.</p>
-    <span class="category-badge">11 Implementations</span>
   </a>
 
   <a href="./stacks/flaxiblemultistackfromarray.html" class="category-card">
-    <h3>🥞 Stacks & Queues</h3>
+    <div class="card-header">
+      <span class="card-title">Stacks & Queues</span>
+      <span class="card-badge">9 files</span>
+    </div>
     <p>Flexible multi-stack in a single array with free-list allocation, Min-Stack, and balanced delimiters.</p>
-    <span class="category-badge">9 Implementations</span>
   </a>
 
   <a href="./binarysearchtree/bstcrudoperations.html" class="category-card">
-    <h3>🌲 Binary Search Trees</h3>
+    <div class="card-header">
+      <span class="card-title">Binary Search Trees</span>
+      <span class="card-badge">9 files</span>
+    </div>
     <p>BST CRUD operations, preorder reconstruction, monotonic validation, and minimal tree generation.</p>
-    <span class="category-badge">9 Implementations</span>
   </a>
 
   <a href="./linkedlists/skiplist.html" class="category-card">
-    <h3>🔗 Linked Lists</h3>
+    <div class="card-header">
+      <span class="card-title">Linked Lists</span>
+      <span class="card-badge">6 files</span>
+    </div>
     <p>Probabilistic Skip List express lanes, Floyd's cycle detection, and K-way sorted list merging.</p>
-    <span class="category-badge">6 Implementations</span>
   </a>
 
   <a href="./dynamicprogramming/knapsack.html" class="category-card">
-    <h3>🧩 Dynamic Programming</h3>
+    <div class="card-header">
+      <span class="card-title">Dynamic Programming</span>
+      <span class="card-badge">3 files</span>
+    </div>
     <p>0/1 & Unbounded Knapsack (1D space-optimized), Catalan number unique BSTs, and coin change.</p>
-    <span class="category-badge">3 Implementations</span>
   </a>
 
   <a href="./divideandconquer/binarysearchonanswer.html" class="category-card">
-    <h3>🎯 Divide & Conquer</h3>
+    <div class="card-header">
+      <span class="card-title">Divide & Conquer</span>
+      <span class="card-badge">3 files</span>
+    </div>
     <p>Monotonic binary search on answer template, capacity shipping, and multi-million element search.</p>
-    <span class="category-badge">3 Implementations</span>
   </a>
 
   <a href="./trie/trie.html" class="category-card">
-    <h3>📖 Trie & Prefix Trees</h3>
+    <div class="card-header">
+      <span class="card-title">Trie & Prefix Trees</span>
+      <span class="card-badge">3 files</span>
+    </div>
     <p>Dynamic alphabet Trie with prefix word count, recursive word deletion, and Word Search II.</p>
-    <span class="category-badge">3 Implementations</span>
   </a>
 </div>

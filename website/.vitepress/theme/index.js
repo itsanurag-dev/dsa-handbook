@@ -7,3 +7,4 @@ export default {
     // Custom app enhancements if needed
   }
 }
+
